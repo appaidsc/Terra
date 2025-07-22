@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "b" {
-  bucket = "AWES345TS"
+  bucket = "s3temp1358"
 
   versioning {
     enabled = true

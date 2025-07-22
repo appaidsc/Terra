@@ -6,7 +6,7 @@ resource "aws_s3_bucket" "b" {
   }
 
   tags = {
-    Name        = "S3Testing"
+    Name        = "S3Test"
     Environment = "QA"
   }
 }

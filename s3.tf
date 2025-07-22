@@ -1,12 +1,12 @@
 resource "aws_s3_bucket" "b" {
-  bucket = "awsterra1358"
+  bucket = "AWES345TS"
 
   versioning {
     enabled = true
   }
 
   tags = {
-    Name        = "S3Test"
+    Name        = "S3Testing"
     Environment = "QA"
   }
 }

@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "b" {
-  bucket = "s3temp1358"
+  bucket = "theonlybucketboss"
 
   versioning {
     enabled = true
